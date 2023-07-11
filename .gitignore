@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+.replit
+replit.nix
+.ccls-cache
+Cours_C++.code-workspace
