@@ -160,12 +160,12 @@ int main()
     int nombre;
     cout << "Donner un entier: ";
     cin >> nombre;
-    int premier = 1;
+    bool premier = true;
     for (int i = 2; i < nombre; i++)
     {
         if (nombre % i == 0)
         {
-            premier = 0;
+            premier = false;
             break;
         }
     }
