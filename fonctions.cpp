@@ -81,17 +81,6 @@ int incremente(int b)
     return b;
 }
 
-int ajoute_deux(int a)
-{
-    a += 2;
-    return a;
-}
-
-void ajoute_deux_bis(int &a)
-{
-    a += 2;
-}
-
 int main()
 {
     hello2();
@@ -138,27 +127,6 @@ int main()
     int a = 8;
     a = incremente(a);
     cout << "a = " << a << endl;
-
-    int score = 10;
-    int &ref_score = score;
-    cout << "ref_score = " << ref_score << endl;
-
-    score = 15;
-    cout << "score = " << score << endl;
-    cout << "ref_score = " << ref_score << endl;
-
-    ref_score = 20;
-    cout << "score = " << score << endl;
-    cout << "ref_score = " << ref_score << endl;
-
-    int ma_variable = 10;
-    int variable_incrementee = ajoute_deux(ma_variable);
-    cout << "ma_variable = " << ma_variable << endl;
-    cout << "variable_incrementee = " << variable_incrementee << endl;
-
-    ma_variable = 10;
-    ajoute_deux_bis(ma_variable);
-    cout << "ma_variable = " << ma_variable << endl;
 
     return 0;
 }
