@@ -62,7 +62,7 @@ int main()
     // utilisation des pointeurs
     int heures = 0, minutes = 90;
     decoupe_minutes(&heures, &minutes);
-    printf("%d heures et %d minutes\n", heures, minutes);
+    cout << heures << " heures et " << minutes << " minutes" << endl;
 
     return 0;
 }
