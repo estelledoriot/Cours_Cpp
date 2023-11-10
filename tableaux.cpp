@@ -1,4 +1,4 @@
-/* Estelle DORIOT           */
+/* Estelle DORIOT          */
 /*  Cours sur les tableaux */
 
 #include <iostream>
